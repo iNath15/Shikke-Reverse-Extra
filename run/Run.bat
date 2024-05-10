@@ -26,7 +26,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdDeDJHLE8FA5Ph5oTwuGOVe9D6EU/erH3OKOqUYYGdA6borJybHDBfgH+ETYZ4Mj6khfjs4eHx4WewquDg==
+::Zh4grVQjdCyDJGyX8VAjFDZdVhGJPVeeA6YX/Ofr09iCtEgPR+dxfZfeug==
 ::YB416Ek+ZG8=
 ::
 ::
@@ -93,4 +93,4 @@ if not exist anti-mindblock-main if not exist python-3.12.3 if not exist Shikkes
     exit /b 1
 )
 
-powershell -Command "& {.\Shikkesora-env\Scripts\activate.ps1;python .\anti-mindblock-main\reverse.py}"
+powershell -ExecutionPolicy Bypass -Command "& {.\Shikkesora-env\Scripts\activate.ps1;python .\anti-mindblock-main\reverse.py}"
