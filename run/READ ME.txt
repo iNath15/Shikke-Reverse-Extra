@@ -1,0 +1,2 @@
+Yes, putting executable files on github is unconventional, but it's just a compiled version of 'Run.bat'.
+It's more convenient when using with another install script.
